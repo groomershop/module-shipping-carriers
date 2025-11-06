@@ -8,3 +8,4 @@ ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
     'GroomerShop_ShippingCarriers',
     __DIR__
+);
