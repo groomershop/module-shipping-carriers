@@ -1,7 +1,6 @@
 {
     "name": "groomershop/module-shipping-carriers",
     "description": "Additional shipping carriers module",
-    "license": "OSL-3.0",
     "type": "magento2-module",
     "license": "OSL-3.0",
     "autoload": {
@@ -14,4 +13,5 @@
     }
 
 }
+
 
