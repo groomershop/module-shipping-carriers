@@ -15,7 +15,7 @@ use Magento\Shipping\Model\Rate\Result;
 use Magento\Shipping\Model\Rate\ResultFactory;
 use Psr\Log\LoggerInterface;
 
-abstract class AbstractCarrier AbstractCarrier implements CarrierInterface
+abstract class AbstractCarrier implements CarrierInterface
 {
     protected bool $_isFixed = true;
 
@@ -73,4 +73,5 @@ abstract class AbstractCarrier AbstractCarrier implements CarrierInterface
     {
         return [$this->_code => $this->getConfigData('name')];
     }
+
 }
