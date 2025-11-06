@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <carrier_inpost>
+                <active>0</active>
+                <title>InPost courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>11</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\InPost</model>
+            </carrier_inpost>
+            <carrier_dhl>
+                <active>0</active>
+                <title>DHL courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>12</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\DHL</model>
+            </carrier_dhl>
+            <carrier_dpd>
+                <active>0</active>
+                <title>DPD courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>13</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\DPD</model>
+            </carrier_dpd>
+            <carrier_gls>
+                <active>0</active>
+                <title>GLS courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>14</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\GLS</model>
+            </carrier_gls>
+            <carrier_ups>
+                <active>0</active>
+                <title>UPS courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\UPS</model>
+            </carrier_ups>
+            <carrier_fedex>
+                <active>0</active>
+                <title>Fedex courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>16</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\Fedex</model>
+            </carrier_fedex>
+        </carriers>
+    </default>
+</config>
