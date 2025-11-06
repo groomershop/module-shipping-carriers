@@ -1,6 +1,6 @@
 {
-    "name": "groomershop/shipping-carriers",
-    "description": "Additional shipping carriers",
+    "name": "groomershop/module-shipping-carriers",
+    "description": "Additional shipping carriers module",
     "license": "OSL-3.0",
     "require": {
         "php": "~7.4.0||~8.1.0",
@@ -25,4 +25,5 @@
             "GroomerShop\\ShippingCarriers\\": ""
         }
     }
+
 }
