@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
 
 class Fedex extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'fedex';
+    protected string $_code = 'carrier_fedex';
 
     protected bool $_isFixed = true;
 

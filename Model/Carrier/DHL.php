@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
 
 class DHL extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'dhl';
+    protected string $_code = 'carrier_dhl';
 
     protected bool $_isFixed = true;
 

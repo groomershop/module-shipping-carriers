@@ -57,6 +57,42 @@
                 <sort_order>16</sort_order>
                 <model>GroomerShop\ShippingCarriers\Model\Carrier\Fedex</model>
             </carrier_fedex>
+            <carrier_post>
+                <active>0</active>
+                <title>Post courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>17</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\Post</model>
+            </carrier_post>
+            <carrier_geodis>
+                <active>0</active>
+                <title>Geodis courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>18</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\Geodis</model>
+            </carrier_geodis>
+            <carrier_geis>
+                <active>0</active>
+                <title>Geis courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>19</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\Geis</model>
+            </carrier_geis>
+            <carrier_schenker>
+                <active>0</active>
+                <title>Schenker courier</title>
+                <name>Delivery within 1 business day</name>
+                <shipping_cost>10</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>20</sort_order>
+                <model>GroomerShop\ShippingCarriers\Model\Carrier\Schenker</model>
+            </carrier_schenker>
         </carriers>
     </default>
 </config>

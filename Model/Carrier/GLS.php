@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
 
 class GLS extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'gls';
+    protected string $_code = 'carrier_gls';
 
     protected bool $_isFixed = true;
 

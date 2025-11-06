@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
 
 class DPD extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'dpd';
+    protected string $_code = 'carrier_dpd';
 
     protected bool $_isFixed = true;
 

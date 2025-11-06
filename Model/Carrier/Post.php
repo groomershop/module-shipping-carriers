@@ -15,9 +15,9 @@ use Magento\Shipping\Model\Rate\Result;
 use Magento\Shipping\Model\Rate\ResultFactory;
 use Psr\Log\LoggerInterface;
 
-class InPost extends AbstractCarrier implements CarrierInterface
+class Post extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'carrier_inpost';
+    protected string $_code = 'carrier_post';
 
     protected bool $_isFixed = true;
 

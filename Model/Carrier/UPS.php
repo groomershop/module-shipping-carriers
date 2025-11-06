@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
 
 class UPS extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'ups';
+    protected string $_code = 'carrier_ups';
 
     protected bool $_isFixed = true;
 
