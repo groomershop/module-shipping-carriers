@@ -8,7 +8,7 @@ use Magento\Shipping\Model\Carrier\CarrierInterface;
 
 class DHL extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'carrier_dhl';
+    protected $_code = 'carrier_dhl';
 
-    protected bool $_isFixed = true;
+    protected $_isFixed = true;
 }
