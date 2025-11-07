@@ -10,7 +10,7 @@ class Geis extends AbstractCarrier implements CarrierInterface
 {
     protected string $_code = 'carrier_geis';
 
-    protected bool $_isFixed = 'true';
+    protected bool $_isFixed = true;
     
     public function getAllowedMethods(): array
     {

@@ -10,7 +10,7 @@ class Fedex extends AbstractCarrier implements CarrierInterface
 {
     protected string $_code = 'carrier_fedex';
 
-    protected bool $_isFixed = 'true';
+    protected bool $_isFixed = true;
     
     public function getAllowedMethods(): array
     {

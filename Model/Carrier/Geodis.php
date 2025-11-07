@@ -10,7 +10,7 @@ class Geodis extends AbstractCarrier implements CarrierInterface
 {
     protected string $_code = 'carrier_geodis';
 
-    protected bool $_isFixed = 'true';
+    protected bool $_isFixed = true;
     
     public function getAllowedMethods(): array
     {

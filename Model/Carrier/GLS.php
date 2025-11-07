@@ -10,7 +10,7 @@ class GLS extends AbstractCarrier implements CarrierInterface
 {
     protected string $_code = 'carrier_gls';
 
-    protected bool $_isFixed = 'true';
+    protected bool $_isFixed = true;
     
     public function getAllowedMethods(): array
     {
