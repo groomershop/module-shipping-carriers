@@ -9,15 +9,14 @@ use Magento\Quote\Model\Quote\Address\RateRequest;
 use Magento\Quote\Model\Quote\Address\RateResult\Method;
 use Magento\Quote\Model\Quote\Address\RateResult\MethodFactory;
 use Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory;
+use Magento\Shipping\Model\Carrier\AbstractCarrier as MagentoAbstractCarrier
 use Magento\Shipping\Model\Carrier\CarrierInterface;
 use Magento\Shipping\Model\Rate\Result;
 use Magento\Shipping\Model\Rate\ResultFactory;
 use Psr\Log\LoggerInterface;
 
-abstract class AbstractCarrier implements CarrierInterface
+abstract class AbstractCarrier extends MagentoAbstractCarrier implements CarrierInterface
 {
-    protected bool $_isFixed = true;
-
     private ResultFactory $rateResultFactory;
 
     private MethodFactory $rateMethodFactory;
@@ -67,11 +66,5 @@ abstract class AbstractCarrier implements CarrierInterface
 
         return $result;
     }
-
-    public function getAllowedMethods(): array
-    {
-        return [$this->_code => $this->getConfigData('name')];
-    }
-
 }
 
