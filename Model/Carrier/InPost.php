@@ -8,12 +8,7 @@ use Magento\Shipping\Model\Carrier\CarrierInterface;
 
 class InPost extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'carrier_inpost';
+    protected $_code = 'carrier_inpost';
 
-    protected bool $_isFixed = true;
-    
-    public function getAllowedMethods(): array
-    {
-        return [$this->_code => $this->getConfigData('name')];
-    }
+    protected $_isFixed = true;
 }

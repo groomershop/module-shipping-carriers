@@ -8,12 +8,7 @@ use Magento\Shipping\Model\Carrier\CarrierInterface;
 
 class Post extends AbstractCarrier implements CarrierInterface
 {
-    protected string $_code = 'carrier_post';
+    protected $_code = 'carrier_post';
 
-    protected bool $_isFixed = true;
-    
-    public function getAllowedMethods(): array
-    {
-        return [$this->_code => $this->getConfigData('name')];
-    }
+    protected $_isFixed = true;
 }

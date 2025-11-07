@@ -66,5 +66,10 @@ abstract class AbstractCarrier extends MagentoAbstractCarrier implements Carrier
 
         return $result;
     }
+    
+    public function getAllowedMethods(): array
+    {
+        return [$this->_code => $this->getConfigData('name')];
+    }
 }
 
